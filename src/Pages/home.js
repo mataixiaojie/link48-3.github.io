@@ -5,6 +5,7 @@ import freehost from '../assets/img/freehost.jpg'
 import banner2 from '../assets/img/banner2.jpg'
 import banner3 from '../assets/img/banner3.jpg'
 import banner4 from '../assets/img/banner4.jpg'
+import keys from '../assets/img/keys.png'
 import $ from 'jquery'
 export default class Home extends React.Component{
     constructor(props){
@@ -102,6 +103,14 @@ export default class Home extends React.Component{
                     <div className="arrow-left"></div>
                     <div className="arrow-right"></div>
                 </div>
+             </div>
+             <div className="yuming">
+               <div className="ym_box">
+                  <div className="ym_tit">
+                    <img src={keys}></img>
+                  </div>
+                  <div className="www">www.</div>
+               </div>
              </div>
            </div>
         )
