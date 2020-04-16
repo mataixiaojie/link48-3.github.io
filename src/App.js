@@ -9,6 +9,7 @@ import bb from './assets/img/xinyongpinganlogo.png'
 import { Row, Col } from 'antd';
 import $ from 'jquery'
 import {BrowserRouter as Router,Link, Route} from 'react-router-dom';
+import Agent from './Pages/Agent/agent'
 export default class App extends React.Component{
     constructor(props){
        super(props)
@@ -92,8 +93,9 @@ export default class App extends React.Component{
            </div>
            <div className="show">
                 <Route path="/" exact component={Home}></Route>
-                        
+                                     
            </div>
+           <Route path="/agent" component={Agent}></Route>   
            <div className="footer">
              <div className="foot-cont">
                 <div className="foot-cont-list">
