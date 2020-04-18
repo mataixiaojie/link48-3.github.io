@@ -101,7 +101,7 @@ li{
     line-height: 60px;
     position: absolute;
     left: 130px;
-    top: 78px;
+    /* top: 78px; */
     z-index: 99;
 }
 .ym_form {
@@ -486,4 +486,7 @@ li{
 }
 .link_list ul>li a:hover{
     color: rgb(247, 161, 49)
+}
+.news_list a:hover{
+    color: rgb(226, 82, 46);
 }

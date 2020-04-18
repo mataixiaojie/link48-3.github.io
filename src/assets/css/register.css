@@ -1,0 +1,84 @@
+.bread{
+    width: 100%;
+    padding:0 2%;
+    margin: 0 auto;
+    height: 50px;
+    background: #41a9fe;
+    line-height: 50px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: left; 
+}
+.qingchu{
+    clear: both;
+}
+.bread>a{
+    color: #fff;
+}
+.content{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    background: #FFF;
+   padding:20px 1%;
+}
+.left{
+    width: 220px;
+    /* height: 500px; */
+    float: left;
+    background-color: rgb(65, 169, 254);
+}
+.l-left{
+
+}
+.l-list>h3{
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    background: url("../img/mem_l_main.jpg") no-repeat;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 0;
+}
+.l-list>ul{
+    width: 190px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    margin: 0;
+}
+.l-list>ul>li{
+    width: 190px;
+    padding-left: 35px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #FFFFFF;
+    border-bottom: 1px dotted #FFFFFF;
+    background: url("../img/about_left_icon.png") no-repeat 15px 16px;
+}
+.l-list>ul>li>a{
+    font-size: 15px;
+    color: #fff;
+}
+.right{
+    padding-left: 20px;
+    float: right;
+    padding-top: 30px;
+}
+.tables{
+    width: 1080px;
+    height: auto;
+    line-height: 150%;
+   
+    padding-top: 30px;
+    border: 1px solid #ddd;
+
+}
+.tables .info{
+    width: 50%;
+}

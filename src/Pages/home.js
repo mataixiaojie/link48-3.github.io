@@ -5,8 +5,6 @@ import freehost from '../assets/img/freehost.jpg'
 import banner2 from '../assets/img/banner2.jpg'
 import banner3 from '../assets/img/banner3.jpg'
 import banner4 from '../assets/img/banner4.jpg'
-<<<<<<< HEAD
-=======
 import keys from '../assets/img/keys.png'
 import ys4 from '../assets/img/ys4.png'
 import ys1 from '../assets/img/ys1.png'
@@ -27,7 +25,6 @@ import case10 from '../assets/img/al10.jpg'
 import case11 from '../assets/img/al11.jpg'
 import case12 from '../assets/img/al12.jpg'
 import {BrowserRouter as Router,Link, Route} from 'react-router-dom';
->>>>>>> zhsj_ltt
 import $ from 'jquery'
 export default class Home extends React.Component{
     constructor(props){
@@ -221,7 +218,7 @@ export default class Home extends React.Component{
                            <div className="item_list">
                               <div className="item_list_cont">
                                  <dl>
-                                     <dt className="dt1">百度云香港服务器</dt>
+                                     <dt className="dt1">香港企业云</dt>
                                      <dd>CPU：1核/内存：1G</dd>
                                      <dd>硬盘：40+20G/带宽：1M</dd>
                                      <dd>IP个数：独立IP 1 个</dd>
@@ -238,7 +235,7 @@ export default class Home extends React.Component{
                            <div className="item_list">
                               <div className="item_list_cont">
                                  <dl>
-                                     <dt className="dt1">百度云香港服务器</dt>
+                                     <dt className="dt1">国内企业云</dt>
                                      <dd>CPU：1核/内存：1G</dd>
                                      <dd>硬盘：40+20G/带宽：1M</dd>
                                      <dd>IP个数：独立IP 1 个</dd>
@@ -255,7 +252,7 @@ export default class Home extends React.Component{
                            <div className="item_list">
                               <div className="item_list_cont">
                                  <dl>
-                                     <dt className="dt1">百度云香港服务器</dt>
+                                     <dt className="dt1">百度云</dt>
                                      <dd>CPU：1核/内存：1G</dd>
                                      <dd>硬盘：40+20G/带宽：1M</dd>
                                      <dd>IP个数：独立IP 1 个</dd>
