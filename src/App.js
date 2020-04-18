@@ -10,6 +10,8 @@ import { Row, Col } from 'antd';
 import $ from 'jquery'
 import {BrowserRouter as Router,Link, Route} from 'react-router-dom';
 import Agent from './Pages/Agent/agent'
+import Netpay from './Pages/netpay'
+import Email from './Pages/email'
 export default class App extends React.Component{
     constructor(props){
        super(props)
@@ -95,7 +97,9 @@ export default class App extends React.Component{
                 <Route path="/" exact component={Home}></Route>
                                      
            </div>
-           <Route path="/agent" component={Agent}></Route>   
+           <Route path="/agent" component={Agent}></Route>
+           <Route path="/netpay" component={Netpay}></Route>
+           <Route path="/email" component={Email}></Route>   
            <div className="footer">
              <div className="foot-cont">
                 <div className="foot-cont-list">
