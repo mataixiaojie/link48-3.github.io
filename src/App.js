@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from './Pages/home'
 import Register from './Pages/register'
+import Host from './Pages/host'
 import './App.css'
 import logo from './assets/img/logo.png'
 import kf from './assets/img/kf.png'
@@ -11,7 +12,6 @@ import qq from './assets/img/qq.png'
 import { Row, Col } from 'antd';
 import $ from 'jquery'
 import {BrowserRouter as Router,Link, Route} from 'react-router-dom';
-import Agent from './Pages/Agent/agent'
 export default class App extends React.Component{
     constructor(props){
        super(props)
@@ -112,9 +112,9 @@ export default class App extends React.Component{
            <div className="show">
                 <Route path="/" exact component={Home}></Route>
                 <Route path="/register" exact component={Register}></Route>
+                <Route path="/host" exact component={Host}></Route>
                                      
-           </div>
-           <Route path="/agent" component={Agent}></Route>   
+           </div> 
            <div className="footer">
              <div className="foot-cont">
                 <div className="foot-cont-list">

@@ -1,0 +1,198 @@
+.host .host-banner {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.host .host-banner .pic ul.img {
+  margin: 0;
+  padding: 0;
+}
+.host .host-banner .pic ul.img li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  height: 300px;
+}
+.host .host-banner .pic ul.img li .bannerSpan {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+.host .host-banner .pic ul.img li .bannerSpan.img1 {
+  background: url('../img//host_banner1.jpg') no-repeat center;
+}
+.host .host-banner .pic ul.img li .bannerSpan.img2 {
+  background: url('../img//host_banner2.jpg') no-repeat center;
+}
+.host .host-banner .pic ul.img li .bannerSpan.img3 {
+  background: url('../img//host_banner3.jpg') no-repeat center;
+}
+.host .host-banner .pic ul.img li .bannerSpan.img4 {
+  background: url('../img//host_banner5.jpg') no-repeat center;
+}
+.host .host-banner .pic .arrow {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  top: 50%;
+  opacity: 0;
+  margin-top: -25px;
+  transition: opacity 1s;
+}
+.host .host-banner .pic .arrow div {
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+  background: #05f;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+.host .host-banner .pic .arrow .arrow-left {
+  left: 200px;
+}
+.host .host-banner .pic .arrow .arrow-right {
+  right: 200px;
+}
+.host .host-banner:hover .arrow {
+  opacity: 1;
+}
+.host .host-banner .dot {
+  position: absolute;
+  bottom: 30px;
+  width: 124px;
+  left: 50%;
+  margin-left: -62px;
+}
+.host .host-banner .dot ul {
+  margin: 0;
+  padding: 0;
+}
+.host .host-banner .dot ul li {
+  list-style: none;
+  padding: 0px;
+  width: 15px;
+  height: 15px;
+  margin: 0px 8px;
+  border-radius: 50%;
+  float: left;
+  background: #fff;
+}
+.host .host-banner .dot ul li:first-child {
+  background: #0a0;
+}
+.host .host-con {
+  overflow: hidden;
+}
+.host .host-con .host-list-name {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 100px;
+  height: 70px;
+  background: #09f;
+  line-height: 70px;
+  font-size: 20px;
+  display: flex;
+}
+.host .host-con .host-list-name .item-name {
+  flex: 1;
+  text-align: center;
+}
+.host .host-con .host-list-name .item-name.item-name-important {
+  font-weight: bold;
+}
+.host .host-con .host-list-name .item-name.item-name-important a {
+  color: #ff0;
+}
+.host .host-con .host-list-name .item-name a {
+  color: #fff;
+}
+.host .host-con .host-list {
+  margin: 40px 0px;
+  width: 100%;
+  padding: 0 80px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.host .host-con .host-list .host-list-item {
+  width: 23%;
+  padding: 30px 0;
+  border: solid 1px #ddd;
+  text-align: center;
+  font-size: 18px;
+}
+.host .host-con .host-list .host-list-item div {
+  width: 80%;
+  margin: 0 10%;
+}
+.host .host-con .host-list .host-list-item .list-head {
+  box-sizing: border-box;
+  padding: 0px 13px;
+  width: 80%;
+  margin: 0 auto;
+  height: 100px;
+  line-height: 100px;
+  text-align: left;
+  background: url("../img/hostcon-bg.jpg") no-repeat center;
+  background-size: 100%;
+  color: #05f;
+  font-weight: bold;
+  font-size: 28px;
+}
+.host .host-con .host-list .host-list-item .comlist {
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: #000 1px dashed;
+}
+.host .host-con .host-list .host-list-item .comlist.col {
+  color: #a00;
+}
+.host .host-con .host-list .host-list-item .comlist.bold {
+  font-size: 24px;
+  font-weight: bold;
+}
+.host .host-con .host-list .host-list-item .comlist .color {
+  color: #a00;
+}
+.host .host-con .host-list .host-list-item .comlist .color.bold {
+  font-size: 24px;
+  font-weight: bold;
+}
+.host .host-con .host-list .host-list-item .comlist.last {
+  font-weight: bold;
+}
+.host .host-con .host-list .host-list-item .caozuo {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 70px;
+  justify-content: space-between;
+  margin: 30px 0 0;
+}
+.host .host-con .host-list .host-list-item .caozuo .bg {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background: orangered;
+  cursor: pointer;
+}
+.host .host-con .host-list .host-list-item .caozuo .bg:hover {
+  background: #a00;
+}
+.host .host-con .fenye {
+  border-bottom: dashed 1px #000;
+  margin-bottom: 50px;
+  width: 88%;
+  box-sizing: border-box;
+  margin: 0 auto 50px;
+  padding: 0px 0px 30px;
+}

@@ -1,0 +1,64 @@
+.index_youshi{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.youshi_tit{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    line-height: 180%;
+    margin-bottom: 40px;
+}
+.youshi_tit>span{
+    font-size:25px; font-weight:bold; color:#000000;
+}
+.youshi_list{
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+.list-l{
+    width:600px;
+    padding-left: 130px;
+    padding-right: 50px;
+    height: 96px;
+    /* line-height: 200%; */
+    float: left;
+    position: relative;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.list-l .list-l-pic{
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 0px;
+
+}
+.list_l_t,.list_r_t{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+.list-r{
+    width: 600px;
+    padding-left: 180px;
+    height: 96px;
+    line-height: 200%;
+    float: left;
+    position: relative;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.list-r-pic{
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 50px;
+}
+.qingchu {
+    clear: both;
+}
