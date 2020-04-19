@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './Pages/home'
 import Register from './Pages/register'
 import Host from './Pages/host'
+import Agent from './Pages/agent'
 import './App.css'
 import logo from './assets/img/logo.png'
 import kf from './assets/img/kf.png'
@@ -113,6 +114,7 @@ export default class App extends React.Component{
                 <Route path="/" exact component={Home}></Route>
                 <Route path="/register" exact component={Register}></Route>
                 <Route path="/host" exact component={Host}></Route>
+                <Route path="/agent" exact component={Agent}></Route>
                                      
            </div> 
            <div className="footer">
