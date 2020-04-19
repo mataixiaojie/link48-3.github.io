@@ -1,0 +1,18 @@
+﻿.w {width:1200px;margin:auto;zoom:1; position:relative;}
+.w:after {clear:both;display:block;height:0;font-size:0;content:".";visibility:hidden;}
+.hearder {height:80px;position:relative;z-index:99;background: #0068c1;}
+.logo {float:left;padding-top:10px;}
+.nav {float:right;width:730px;}
+.nav li {float:left; position:relative;}
+.nav-list {position:absolute;left:0px;background:url(/Ytvps/images/nav-bg.png) repeat;padding:10px 0px;width:105px;display:none;z-index:9999;}
+.nav-lists {position:absolute;left:0px;background:url(/Ytvps/images/nav-bg.png) repeat;padding:10px 0px;width:120px;display:none;z-index:9999;}
+.nav-list .nav-list-item {padding:3px 0px;}
+.nav-lists .nav-list-item {padding:3px 0px;}
+.nav-list-item a {color:#fefefe;font-size:14px;display:block;padding:7px 15px;text-align:center; text-decoration:none;}
+.nav-list-item a:hover {background:url(/Ytvps/images/nav-bg.png) repeat;}
+.nav li .nav-item {display:block;line-height:87px;font-size:16px;}
+.nav li .nav-item:hover {background:#005eaa;}
+.nav li .nav-item a {color:#FFFFFF;display:block;padding-left:20px;padding-right:20px;}
+.nav li .nav-item a:hover {color:#FFFFFF; text-decoration:none;}
+.focus {position:relative;z-index:10;}
+

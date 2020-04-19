@@ -1,11 +1,13 @@
 import React from 'react'
 import Home from './Pages/home'
+import Register from './Pages/register'
 import './App.css'
 import logo from './assets/img/logo.png'
 import kf from './assets/img/kf.png'
 import gongan from './assets/img/gongan.png'
 import aa from './assets/img/hd315.gif'
 import bb from './assets/img/xinyongpinganlogo.png'
+import qq from './assets/img/qq.png'
 import { Row, Col } from 'antd';
 import $ from 'jquery'
 import {BrowserRouter as Router,Link, Route} from 'react-router-dom';
@@ -23,6 +25,22 @@ export default class App extends React.Component{
         })
         $(".yjcd li").mouseleave(function(){
           $(this).children(".ejcd").slideUp(500)
+        })
+      })
+      $(function(){
+        $(".open-in").click(function(){
+          $(this).css("display","none");
+          $(".open-cont").css("display","block")
+        })
+        $(".close").click(function(){
+          $(".open-cont").css("display","none");
+          $(".open-in").css("display","block")
+        })
+        $(".qq-a").mouseenter(function(){
+          $(".img-qq").addClass("huaguo")
+        })
+        $(".qq-a").mouseleave(function(){
+          $(".img-qq").removeClass("huaguo")
         })
       })
     }
@@ -95,6 +113,7 @@ export default class App extends React.Component{
            </div>
            <div className="show">
                 <Route path="/" exact component={Home}></Route>
+                <Route path="/register" exact component={Register}></Route>
                                      
            </div>
            <Route path="/agent" component={Agent}></Route>
@@ -173,6 +192,23 @@ export default class App extends React.Component{
                <div className="contr">
                Copyright 2004-2018 北京妙思科技有限公司 All Rights Reserved 中华世纪网 版权所有&nbsp;
                </div>
+             </div>
+           </div>
+           <div className="chat">
+             <div className="open-in"></div>
+             <div className="open-cont">
+                <div className="close">
+                   <span></span>
+                </div>
+                <a href="http://wpa.qq.com/msgrd?V=3&amp;uin=4202937&amp;Site=中华世纪网欢迎您！&amp;Menu=yes" target="_blank" className="im-qq qq-a" title="在线QQ客服">
+                    <div className="qq-container"></div>
+                    <div className="qq-hover-c"><img className="img-qq" src={qq}></img></div>
+                    <span>点击QQ咨询</span> 
+                </a>
+                <div className="open-tel">
+                   <div>免费咨询热线</div>
+                   <div className="tel-num"><br></br>186 0066 0491</div>
+                </div>
              </div>
            </div>
            </div>
