@@ -3,6 +3,10 @@ import Home from './Pages/home'
 import Register from './Pages/register'
 import Host from './Pages/host'
 import Agent from './Pages/agent'
+import Help from './Pages/help'
+import Cloud from './Pages/cloud'
+import Website from './Pages/website'
+ 
 import './App.css'
 import logo from './assets/img/logo.png'
 import kf from './assets/img/kf.png'
@@ -57,7 +61,7 @@ export default class App extends React.Component{
                            <Link to="/register">注册会员</Link>
                            <Link to="/user">会员登录</Link>
                            <Link to="/agent">代理登录</Link>
-                           <Link to="/help">帮助中心</Link>
+                           <Link to="/about/help">帮助中心</Link>
                            <Link to="/netpay">付款中心</Link>
                            <Link to="/lianxiwomen">联系我们</Link>
                         </div>
@@ -115,7 +119,9 @@ export default class App extends React.Component{
                 <Route path="/register" exact component={Register}></Route>
                 <Route path="/host" exact component={Host}></Route>
                 <Route path="/agent" exact component={Agent}></Route>
-                                     
+                <Route path='/about/help' component={Help} />
+                <Route path='/cloud' component={Cloud} />
+                <Route path='/website' component={Website} />
            </div> 
            <div className="footer">
              <div className="foot-cont">
@@ -132,8 +138,8 @@ export default class App extends React.Component{
                 <div className="foot-cont-list">
                   <dl>
                     <dt>产品中心</dt>
-                    <dd><a href="#">网站建设</a></dd>
-                    <dd><a href="#">云服务器</a></dd>
+                    <dd><a href="/website">网站建设</a></dd>
+                    <dd><a href="/cloud">云服务器</a></dd>
                     <dd><a href="#">虚拟主机</a></dd>
                     <dd><a href="#">域名注册</a></dd>
                     <dd><a href="#">管理面板</a></dd>

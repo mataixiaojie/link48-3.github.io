@@ -1,0 +1,106 @@
+.cloud>.banner>img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.cloud>.fenlei{
+    background: #41a9fe;
+}
+.cloud>.fenlei>div{
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.cloud>.fenlei>div>span{
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+.cloud>.cloud_list{
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto 30px auto;
+}
+.cloud>.cloud_list>.con>ul>li{
+    float: left;
+    width: 285px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    padding: 30px 20px; 
+    display: flex;
+    flex-direction: column;
+}
+.cloud>.cloud_list>.con>ul>li>h1{
+    font-weight: bold;
+    color: #CC0000;
+    text-align: center;
+}
+.cloud>.cloud_list>.con>ul>li>span{
+    border-bottom: 1px dashed #ccc;
+    padding: 10px 5px;
+    text-align: center;
+    color: #333;
+}
+.cloud>.cloud_list>.con>ul>li>.change{
+    font-weight: bold;
+}
+.cloud>.cloud_list>.con>ul>li>.change>span{
+    color: #CC0000;
+    font-size: 25px;
+}
+.cloud>.cloud_list>.con>ul>li>button{
+    margin-top: 20px;
+    width: 130px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #ff4000;
+    color: #fff;
+    border: none;
+    outline: none;
+    display: block;
+    margin: 30px auto 0 auto;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all .5s;
+}
+.cloud>.cloud_list>.con>ul>li>button:hover{
+    background: #f5825b;
+}
+.cloud>.cloud_list>.con>ul>li:last-child{
+    margin-right: 0;
+}
+.cloud>.selectZh{
+    padding: 40px 0;
+    background: #EFF0F1;
+}
+.cloud>.selectZh>div{
+    width: 1200px;
+    margin: 0 auto;
+}
+.cloud>.selectZh>div ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cloud>.selectZh>div>.title{
+    text-align: center;
+}
+.cloud>.selectZh>div h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+.cloud>.selectZh>div li{
+    display: flex;
+    width: 520px;
+    float: left;
+    margin-top: 40px;
+}
+.cloud>.selectZh>div li>img{
+    width: 96px;
+    height: 96px;
+    margin-right: 20px;
+}

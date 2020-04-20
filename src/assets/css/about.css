@@ -1,0 +1,43 @@
+.about>.con{
+    width: 1200px;
+    margin: 10px auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about>.con>.help{
+    flex: 1;
+    border: 1px solid #ccc;
+    margin-left: 50px;
+    text-align: center;
+    padding: 30px 100px;
+}
+.about>.con>.help>h3{
+    font-weight: bold;
+}
+.about>.con>.help>h3,.about>.con>.help li{
+    border-bottom: 1px solid #eee;
+    padding: 30px 0;
+}
+.about>.con>.help li{
+    display: flex;
+    justify-content: space-around;
+}
+.about>.con>.help>.search{
+    border: 1px solid rgb(255, 153, 102);
+    padding: 20px;
+    text-align: left;
+    background: rgb(255, 255, 222)
+}
+.about>.con>.help>.search>input{
+    border-radius: 3px;
+    width: 260px;
+    font-size: 25px;
+    color: #c0c0c0;
+    outline: none;
+}
+.about>.con>.help>.search>button{
+    background: #4c913f;
+    width: 150px;
+    height: 34px;
+    margin-left: 10px;
+}
