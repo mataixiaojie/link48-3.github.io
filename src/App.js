@@ -6,7 +6,8 @@ import Agent from './Pages/agent'
 import Help from './Pages/help'
 import Cloud from './Pages/cloud'
 import Website from './Pages/website'
- 
+import Email from './Pages/email'
+import Netpay from './Pages/netpay' 
 import './App.css'
 import logo from './assets/img/logo.png'
 import kf from './assets/img/kf.png'
@@ -122,6 +123,8 @@ export default class App extends React.Component{
                 <Route path='/about/help' component={Help} />
                 <Route path='/cloud' component={Cloud} />
                 <Route path='/website' component={Website} />
+                <Route path='/email' component={Email} />
+                <Route path='/netpay' component={Netpay} />
            </div> 
            <div className="footer">
              <div className="foot-cont">
